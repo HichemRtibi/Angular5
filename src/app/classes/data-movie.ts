@@ -1,2 +1,4 @@
-export class DataMovie {
-}
+import {Movie} from "./movie";
+
+
+export const MOVIES: Movie[] = [];

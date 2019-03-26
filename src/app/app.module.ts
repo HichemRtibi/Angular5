@@ -5,12 +5,16 @@ import {AppComponent} from './app.component';
 import {MovieListComponent} from './components/movie-list/movie-list.component';
 import {CharacterListComponent} from './components/character-list/character-list.component';
 import {RouterModule} from "@angular/router";
+import { MovieComponent } from './components/movie/movie.component';
+import { CharacterComponent } from './components/character/character.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieListComponent,
-    CharacterListComponent
+    CharacterListComponent,
+    MovieComponent,
+    CharacterComponent
   ],
   imports: [
     BrowserModule,
